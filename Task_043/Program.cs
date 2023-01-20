@@ -20,8 +20,9 @@ if (k1 == k2)
     else Console.WriteLine("Прямые параллельны.");
 }
 
-double x = (b1 - b2) / (k2 - k1);
-double y = k2 * x + b2;
-
-Console.WriteLine($"Точка пересечения прямых имеет координаты ({x}; {y})");
-
+else
+{
+    double x = (b1 - b2) / (k2 - k1);
+    double y = k2 * x + b2;
+    Console.WriteLine($"Точка пересечения прямых имеет координаты ({x}; {y})");
+}
